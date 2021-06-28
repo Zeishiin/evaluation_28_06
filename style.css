@@ -106,7 +106,10 @@ h1{text-align: center;font-size: 2.5em;padding: .25em;}
 .wishes-container{
     display: flex;
     flex-wrap:wrap;
-    justify-content: space-between;
+    justify-content: left;
+}
+.wishes-container figure{
+    margin: 0;
 }
 .wish img{max-width: 100%;}
 .gift_sub{
