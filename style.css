@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+body{margin:0;}
+.page-container{
+    position: relative;
+    top:0;
+    left:0;
+
+    width:100%;
+    min-height:100%;
+    background-image: url("images/background.jpg");
+
+    display: flex;
+    flex-direction: column;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/********/
+/* MISC */
+/********/
+
+a{color: inherit; text-decoration: none;}
+.section_spacer{margin-bottom: 3em;}
+
+
+
+
+
+/********************/
+/* GENERAL SELECTOR */
+/********************/
+h1,h2,h3{color:hsl(2, 64%, 54%); font-family:'Dancing Script', cursive;}
+.hoverable:hover{
+    border-radius: 20px;
+    background: hsl(2, 63%, 43%)
+}
+.red_white{
+    background: hsl(2, 64%, 54%);
+    color: white;
+}
+
+
+
+/******************/
+/* HEADER SECTION */
+/******************/
+
+#header{
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    height: 5rem;
+}
+.header-navbar ul{  
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.header-navbar ul li{
+    padding: 1em;
+    margin-right: .5em;
+
+    list-style-type: none;
+    cursor:pointer;
+
+}
+.header-navbar ul li:not(:first-child){
+    text-transform: uppercase;
+}
+/* CANT SEEM TO GET LI TO BE FULL HEIGHT? -----------------------------> WFR */ 
+/* SITE TITLE */
+#home{
+    font-family: 'Dancing Script', cursive;
+    font-size:1.5em;
+
+    margin-right: auto;
+}
+
+
+/******************/
+/* MAIN SECTION  */
+/******************/
+#main{
+    position: relative;
+    width: 65%;
+
+    margin: 7.5rem auto 2.5rem;
+    padding: 2em 1.5em;
+
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 25px rgba(0,0,0,.4);
+
+
+}
+
+/* ACTIONS SECTION */
+h1{text-align: center;font-size: 2.5em;padding: .25em;}
+
+/* WISHES SECTION */
+.wishes-container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.wish img{max-width: 100%;}
+.gift_sub{
+    width: max-content;
+
+    padding: .75em 6.5em;
+    margin: 0 auto;
+    background: rgba(0,0,0,.2);
+}
+
+
+/* DELIVERY */
+.delivery-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.delivery-left{
+    width:52%;
+}
+.delivery-left iframe{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.delivery-right{
+    width: 45%;
+    margin-left: 10px;
+}
+
+
+.address{
+    margin-bottom: 2em;
+}
+#delivery input{
+    padding: .5em .75em;    
+    border-radius: 5px;
+}
+#delivery button{
+    display:block;
+
+    background: hsl(2, 64%, 54%);
+    color: white;
+
+    padding: .5em .75em;
+    margin: .5em 0;
+    border-radius: 5px;
+}
+
+
+
+/******************/
+/* FOOTER SECTION */
+/******************/
+#footer{
+    margin-top:auto;
+    width: 100%;
+    height: 2.5rem;
+}
+#footer span{padding: .5em;float: right;}
+
+
+
+@media (max-width: 1024px){
+
+    /******************/
+    /* HEADER SECTION */
+    /******************/
+        #header{
+            height: 15rem;
+        }
+        .header-navbar ul{  
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        #home{
+            margin: 0 auto;
+        }
+
+
+    /******************/
+    /* MAIN SECTION  */
+    /******************/
+        #main{
+            margin: 17.5rem auto 2.5rem;
+        }
+        
+        .wishes-container{
+            justify-content: center;
+        }
+
+
+        .delivery-container{
+            display: flex;
+            flex-direction: column;
+        }
+        .delivery-left{
+            width:auto;
+            height:25rem;
+        }
+        .delivery-left iframe{
+            width: 100%;
+            height: 100%;
+        }
+        .delivery-right{
+            width: auto;
+            margin-top: 1em;
+            margin-left:0 ;
+        }
+}

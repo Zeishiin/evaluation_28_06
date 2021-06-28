@@ -1,0 +1,52 @@
+Couleurs :
+    rouge de noel (defaut) : #d4423e
+    rouge foncé de noel : #b32c28
+
+Polices :
+    police des titres google web font : Dancing Script
+    polices du reste des contenus : Arial, sans-serif
+    polices Font Awesome pour l'icon d'étoile
+
+Textes de la page :
+
+    Header : 
+        Ma lettre au Père Noël
+
+    Menu :
+        Mes bonnes actions
+        Mes souhaits
+        Livraison 
+
+    Titre :
+        Cher Père Noël
+
+    Partie 1 :
+        Mes bonnes actions
+
+        Cette année, comme les années précédentes, j'ai été particulièrement gentil. Voici 3 bonnes résolutions de l'année que j'ai réussi à tenir et qui je l'espère te convaincrons de passer chez moi le 24 déposer de beaux cadeaux.
+
+        - Je n'ai pas mangé trop de sucre
+        - J'ai donné de l'argent à la fondation Wikimedia
+        - J'ai jeté mon carton dans le bac jaune ... toute l'année
+
+        Cette année, j'ai enfin fait ramoner ma cheminée pour éviter que tu ne sois trop sale !
+
+    Partie 2 :
+        Mes souhaits
+
+    Partie 3 :
+        Où me livrer ?
+
+        Cette année ce sera plus simple si tu me livres directement à cette adresse :
+
+        Déchetterie Du Sictom
+        Route des Jasnières,
+        72340 La Chartre-sur-le-Loir
+        02 43 79 20 64
+
+        Newsletter
+
+        Père Noël, abonne-toi à ma newsletter pour recevoir en direct mes souhaits pour l'année prochaine.
+
+Code embed Open Street Map :
+    <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=0.5662894248962403%2C47.73653822238009%2C0.5946135520935059%2C47.74926494796389&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=16/47.7429/0.5805">View Larger Map</a></small>
